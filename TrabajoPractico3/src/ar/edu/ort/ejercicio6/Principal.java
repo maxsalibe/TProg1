@@ -6,7 +6,7 @@ public class Principal {
     public static void main(String[] args) {
         Taller t = new Taller();
         ArrayList<Bicicleta> lista = new ArrayList<>();
-        agregarBicicleta(lista, "Aurorita", "2000", 2001);
+        agregarBicicleta(lista, "Rosalia", "2000", 2001);
         agregarBicicleta(lista, "Aurorita", "Fantastic", 300);
         agregarBicicleta(lista, "KDT", "Player", 1500);
         agregarBicicleta(lista, "Canaglia", "Number 1", 2300);
