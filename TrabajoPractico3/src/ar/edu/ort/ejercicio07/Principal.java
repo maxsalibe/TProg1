@@ -1,4 +1,4 @@
-package ar.edu.ort.ejercicio7;
+package ar.edu.ort.ejercicio07;
 
 public class Principal {
     public static void main(String[] args) {
