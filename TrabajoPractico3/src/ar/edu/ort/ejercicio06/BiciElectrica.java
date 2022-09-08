@@ -1,4 +1,4 @@
-package ar.edu.ort.ejercicio6;
+package ar.edu.ort.ejercicio06;
 
 public class BiciElectrica extends Bicicleta {
     private int potencia;

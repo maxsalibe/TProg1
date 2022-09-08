@@ -1,4 +1,4 @@
-package ar.edu.ort.ejercicio8;
+package ar.edu.ort.ejercicio08;
 
 public abstract class Empleado {
     private int dni;
@@ -12,4 +12,15 @@ public abstract class Empleado {
         this.apellido = apellido;
         this.anioIngreso = anioIngreso;
     }
+
+    public void mostrarSalario() {
+        System.out.println(nombre + " " + apellido);
+    };
+
+    // Agrego metodo para el test
+    protected int getAnioIngreso() {
+        return anioIngreso;
+    }
+
+
 }
